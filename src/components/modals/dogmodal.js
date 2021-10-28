@@ -40,7 +40,8 @@ export default class DogModal extends Component {
             <ReactModal
             style={this.customStyles} 
             onRequestClose={() => {this.props.handleDogModalClose()}} 
-            isOpen={this.props.dogModalIsOpen}>
+            isOpen={this.props.dogModalIsOpen}
+            >
 
             <DogForm handleDogSubmit={this.handleDogSubmit}/>
             </ReactModal >

@@ -6,16 +6,14 @@ import {
 import Home from "./pages/Home"
 
 
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import { library } from "@fortawesome/fontawesome-svg-core";
-//import { fasDog, fasCat } from "@fortawesome/free-solid-svg-icons";
+
 
 import DogContainer from './pages/dogs';
-
 import CatContainer from './pages/cats';
 
 
-//library.add(fasCat, fasDog)
+
+
 
 
 export default class App extends Component {

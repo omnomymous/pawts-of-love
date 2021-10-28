@@ -40,7 +40,8 @@ export default class CatModal extends Component {
             <ReactModal
             style={this.customStyles} 
             onRequestClose={() => {this.props.handleCatModalClose()}} 
-            isOpen={this.props.catModalIsOpen}>
+            isOpen={this.props.catModalIsOpen}
+            >
 
             <CatForm handleCatSubmit={this.handleCatSubmit}/>
             </ReactModal >
