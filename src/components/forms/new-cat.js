@@ -37,7 +37,7 @@ export default class CatForm extends Component {
     handleSubmit(event) {
         
 
-        fetch("https://pawts-of-love.herokuapp.com/cat", {
+        fetch("https://pawts-of-love-api.herokuapp.com/cat", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({

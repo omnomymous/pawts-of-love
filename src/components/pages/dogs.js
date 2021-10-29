@@ -38,7 +38,7 @@ export default class DogContainer extends Component {
     }
 
     getDogsList(){
-        axios.get("https://pawts-of-love.herokuapp.com/dogs")
+        axios.get("https://pawts-of-love-api.herokuapp.com/dogs")
         .then(response => {            
             this.setState({
                 dogsList: response.data

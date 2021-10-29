@@ -38,7 +38,7 @@ export default class DogForm extends Component {
     handleSubmit(event) {
         
 
-        fetch("https://pawts-of-love.herokuapp.com/dog", {
+        fetch("https://pawts-of-love-api.herokuapp.com/dog", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({
