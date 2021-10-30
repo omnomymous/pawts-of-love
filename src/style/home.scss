@@ -5,29 +5,24 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    grid-gap: 15px;
     width: 100vw;
     height: 100vh;
     margin: 0;
+    overflow: none;
 
     @media screen and (max-width: 1280px){
 
         
         display: grid;
         grid-template-columns: 1fr;       
-        overflow: auto;
+        overflow: none;
         height: 100vh;
         margin: 0;
         
     }
     
-    @media screen and (max-width: 500px){
-        display: grid;
-        grid-template-columns: 1fr;       
-        overflow: auto;
-        height: 100vh;
-        margin: 0;
-    }
-
+    
         
     
 
