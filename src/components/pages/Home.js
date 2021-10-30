@@ -39,9 +39,9 @@ export default class Home extends Component {
 
                 
                     
-                    <div className="dogs-and-cats">                        
-                            <HomeNavBar />                        
-                    </div>
+                <div className="dogs-and-cats">                        
+                    <HomeNavBar />                        
+                </div>
                 
 
 
