@@ -14,13 +14,19 @@
         
         display: grid;
         grid-template-columns: 1fr;       
-        width: 100vw;
+        overflow: auto;
         height: 100vh;
         margin: 0;
         
     }
     
-
+    @media screen and (max-width: 500px){
+        display: grid;
+        grid-template-columns: 1fr;       
+        overflow: auto;
+        height: 100vh;
+        margin: 0;
+    }
 
         
     
