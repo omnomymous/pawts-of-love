@@ -11,13 +11,13 @@
     margin: 0;
     overflow: none;
 
-    @media screen and (max-width: 1280px){
+    @media screen and (max-width: 1280px) {
 
         
         display: grid;
         grid-template-columns: 1fr;       
-        overflow: none;
-        height: 100vh;
+        overflow: auto;
+        height: 100%;
         margin: 0;
         
     }
@@ -42,15 +42,7 @@
             font-family: 'Rampart One', cursive;
             color:  black;
 
-            @media screen and (min-width: 1280px)
-            {
-              padding-left: 100px; 
-                
-            }
-
-            @media screen and (max-width: 800px) {
-                padding-right: 100px; 
-         }
+            
          
 
             
@@ -65,9 +57,7 @@
             
             font-family: 'Zen Kurenaido', sans-serif;
 
-            @media screen and (max-width: 800px) {
-                padding-right: 100px; 
-         }
+            
          
         }
     }
